@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "849628545510",
+    "project_id": "recap-beta-667e6",
+    "storage_bucket": "recap-beta-667e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849628545510:android:351530826314011316d627",
+        "android_client_info": {
+          "package_name": "com.proj.recapbeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849628545510-4sn1mnjcin1jjchgfj6v6upuhsa9plhi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf_HXiNWU98xJqsu5saHWXqsppyfNGsiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849628545510-4sn1mnjcin1jjchgfj6v6upuhsa9plhi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

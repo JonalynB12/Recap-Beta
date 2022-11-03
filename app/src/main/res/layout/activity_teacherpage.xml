@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherPage">
+
+    <Button
+        android:id="@+id/uploadBtn"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#AAF1AD"
+        android:text="@string/uploadvid"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/hiTeacher"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <Button
+        android:id="@+id/courseCatBtn"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#AAF1AD"
+        android:text="Course Catalogs"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uploadBtn"
+        app:layout_constraintVertical_bias="0.038"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <TextView
+        android:id="@+id/hiTeacher"
+        android:layout_width="252dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="212dp"
+        android:text="Hello Teacher !"
+        android:textSize="25dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="93dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

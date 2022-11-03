@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Recap Beta</string>
+    <string name="tempcode">TempCode</string>
+    <string name="tempdesc">TempDesc</string>
+    <string name="uploadvid">Upload Video</string>
+    <string name="logout">Logout</string>
+    <string name="uploadvid_here">Upload Video Here</string>
+</resources>
